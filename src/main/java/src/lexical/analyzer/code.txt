@@ -1,0 +1,8 @@
+int main() {
+    int x;
+if(10 == 10) {
+    int n;
+    n=5;
+} 
+}
+$
