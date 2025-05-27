@@ -15,37 +15,27 @@ Each token represents a lexical element of the language, such as keywords, ident
 <h2>📂 Class Token </h2>
 The Token class defines the possible token types and provides methods to get the lexeme and type of a token. The token types are:
 
-INT_TYPE: Integer type
-DOUBLE_TYPE: Double type
-CHAR_TYPE: Character type
-IDENTIFIER_TYPE: Identifier
-RELATIONAL_OPERATOR_TYPE: Relational operator
-ARITHMETIC_OPERATOR_TYPE: Arithmetic operator
-SPECIAL_CHARACTER_TYPE: Special character
-RESERVED_WORD_TYPE: Reserved word
-ASSIGNMENT_OPERATOR_TYPE: Assignment operator
-RAISED_CAIO_TYPE: Special token "RAISED CAIO"
-TOKEN_A: Special token "TOKEN A"
-RING_0: Special token "RING 0"
-STRING_TYPE: String type
-END_CODE_TYPE: Token indicating end of source code
-The Token class also implements methods to represent the token as a string.
+INT_TYPE: Integer type<br>
+DOUBLE_TYPE: Double type<br>
+CHAR_TYPE: Character type<br>
+IDENTIFIER_TYPE: Identifier<br>
+RELATIONAL_OPERATOR_TYPE: Relational operator<br>
+ARITHMETIC_OPERATOR_TYPE: Arithmetic operator<br>
+SPECIAL_CHARACTER_TYPE: Special character<br>
+RESERVED_WORD_TYPE: Reserved word<br>
+ASSIGNMENT_OPERATOR_TYPE: Assignment operator<br>
+STRING_TYPE: String type<br>
+END_CODE_TYPE: Token indicating end of source code<br>
+The Token class also implements methods to represent the token as a string.<br>
 
-<h2>🔀 Key Features</h2>
-📋 User CRUD operations
+<h2>🔀 Supported Languages</h2>
+Based on the current implementation, the compiler is able to handle a language that includes:
 
-🛍️ Order/product/category registration and relationships
-
-💳 Payment-order association
-
-📦 Order item management with quantity and price control
-
-📅 ISO 8601 date formatting
-
-🔒 Global exception handling
-
-🔐 JWT security
-
-JWT secret and expiration configuration
-
-Future implementation for token-based authentication/authorization
+Data types: int, double, char, string<br>
+Arithmetic operators: +, -, *, /, %<br>
+Relational operators: <, >, <=, >=, ==<br>
+Assignment operator: =<br>
+Keywords: int, double, float, char, String, Integer, if, else, while, for, main, Boolean<br>
+Special characters: (, ), {, }, ,, ;<br>
+Identifiers and character and string literals.<br>
+This compiler can be extended to support more language features and constructs as needed.<br>
