@@ -28,6 +28,9 @@ STRING_TYPE: String type<br>
 END_CODE_TYPE: Token indicating end of source code<br>
 The Token class also implements methods to represent the token as a string.<br>
 
+<h2>Semantic Analysis</h2>
+Semantic analysis is the third phase of the compilation process, where meaning and context checks are made in the source code. This phase ensures that the code is semantically correct. In the provided code, semantic analysis is handled by the SinglyLinkedList and SinglyListNode classes.<br>
+
 <h2>🔀 Supported Languages</h2>
 <h3>Based on the current implementation, the compiler is able to handle a language that includes:</h3>
 
