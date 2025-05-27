@@ -4,7 +4,7 @@ This compiler is developed in Java and consists of three main parts: lexical ana
 The goal of the compiler is to analyze source code written in a specific language and produce an intermediate representation or perform actions based on that analysis.
 
 <h2>📌 Group</h2>
-João Victor Muniz Rocha
+João Victor Muniz Rocha<br>
 Davi Rocha de Barros Carvalho
 
 
