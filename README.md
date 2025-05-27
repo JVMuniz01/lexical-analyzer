@@ -29,7 +29,7 @@ END_CODE_TYPE: Token indicating end of source code<br>
 The Token class also implements methods to represent the token as a string.<br>
 
 <h2>🔀 Supported Languages</h2>
-Based on the current implementation, the compiler is able to handle a language that includes:
+<h3>Based on the current implementation, the compiler is able to handle a language that includes:</h3>
 
 Data types: int, double, char, string<br>
 Arithmetic operators: +, -, *, /, %<br>
