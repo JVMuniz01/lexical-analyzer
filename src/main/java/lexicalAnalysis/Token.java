@@ -11,10 +11,8 @@ public class Token {
     public static int SPECIAL_CHARACTER_TYPE = 6;
     public static int RESERVED_WORD_TYPE = 7;
     public static int ASSIGNMENT_OPERATOR_TYPE = 8;
-    public static int RAISED_CAIO_TYPE = 9;
-    public static int TOKEN_A = 10;
-    public static int RING_0 = 11;
     public static int STRING_TYPE = 12;
+    public static int COMMENT_TYPE = 69;
     public static int END_CODE_TYPE = 99;
     
     private int type;
@@ -54,14 +52,10 @@ public class Token {
                 return this.lexeme + " - RESERVED WORD";
             case 8:
                 return this.lexeme + " - ASSIGNMENT OPERATOR";
-            case 9:
-                return this.lexeme + " - RAISED CAIO";
-            case 10:
-                return this.lexeme + " - TOKEN A";
-            case 11:
-                return this.lexeme + " - RING 0";
             case 12:
                 return this.lexeme + " - STRING";
+            case 69:
+            return this.lexeme + " - COMMENT";
             case 99:
                 return this.lexeme + " - END_CODE";
         }
@@ -88,14 +82,10 @@ public class Token {
                 return "RESERVED WORD";
             case 8:
                 return "ASSIGNMENT OPERATOR";
-            case 9:
-                return "RAISED CAIO";
-            case 10:
-                return "TOKEN A";
-            case 11:
-                return "RING 0";
             case 12:
                 return "STRING";
+            case 69:
+            return "COMMENT";
             case 99:
                 return "END_CODE";
         }

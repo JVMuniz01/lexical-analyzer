@@ -1,3 +1,6 @@
-lexicalAnalysis\Token.class
-lexicalAnalysis\Lexicon.class
 src\lexical\analyzer\LexicalAnalyzer.class
+syntheticAnalysis\Synthetic.class
+lexicalAnalysis\Token.class
+semanticAnalysis\SinglyListNode.class
+lexicalAnalysis\Lexicon.class
+semanticAnalysis\SinglyLinkedList.class
